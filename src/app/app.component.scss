@@ -2,7 +2,7 @@
 	display: grid;
 	grid-template-rows: 100vh;
 	grid-template-columns: 100vw;
-	background-color: #006d88;
+	background-color: #013277;
 	color: #fff;
 	font-family: sans-serif;
 }
@@ -16,4 +16,16 @@
 h1 {
 	font-size: 3rem;
 	line-height: 2em;
+}
+.image {
+	width: 30vw;
+	height: 30vw;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
 }
